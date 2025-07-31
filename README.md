@@ -1,16 +1,21 @@
-# flutflix
+# 🎬 Cinema Score – Movie Listing App
 
-A new Flutter project.
+A cross-platform Flutter application to discover trending, top-rated, and upcoming movies using the [TMDb API](https://www.themoviedb.org/documentation/api).
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- 🔥 View **Trending**, **Top-Rated**, and **Upcoming** movies in real-time
+- 🔍 **Search** for your favorite movies by title
+- 🎞️ **Detailed Movie Pages** with posters, ratings, overviews, and release dates
+- 🏁 Splash Screen and smooth navigation between pages
+- 📱 Fully **Responsive UI** across Android & iOS devices
+- 🧱 Built with **Clean Architecture**: modular, maintainable, and scalable code
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Flutter** & **Dart**
+- **TMDb API**
+- **http** for API requests
+- **Provider** or **Cubit** (if used) for state management
+- **Responsive layouts** with `MediaQuery` and `LayoutBuilder`
+- **Custom Widgets** for reusability and performance
